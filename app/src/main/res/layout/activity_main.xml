@@ -11,7 +11,19 @@
     tools:context="com.awwhome.disorderlybroadcast.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_sendBroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="25dp"
+        android:text="发送一条广播"
+        android:onClick="sendBroadcast"
+        />
 </RelativeLayout>
